@@ -21,4 +21,3 @@ select *
 				and PurchaseDatetime > dateadd(month, datediff(month, 0, sysdatetime()), 0)
 				and CustomerId = c.CustomerId)
 	;
-
